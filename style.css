@@ -6,63 +6,76 @@
 }
 
 .main{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("cafe\(arknights\).png");
+    background-color: white;
     background-size: cover;
 }
 
 .navbar{
-    display: flex;
     justify-content: space-between;
-    padding: 50px 80px;
-}
-
-.logo{
-    color: white;
-    font-size: 50px;
+    display: flex;
+    padding: 20px 0;
     font-weight: bold;
-    cursor: pointer;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar ul li{
-    float: left;
     list-style: none;
-    font-size: 20px;
-    padding: 25px 20px;
+    float: left;
+    margin: 35px 10px;
 }
 
 .navbar ul li a{
-    color: white;
-    cursor: pointer;
+    color: black;
+    font-size: 17px;
 }
 
-.content{
-    color: white;
-    padding: 20px 80px;
+.logo{
+    margin: 20px 60px;
+    font-size: 35px;
 }
 
-button{
-    height: 35px;
-    width: 600px;
-    margin-top: 50px;
-    cursor: pointer;
-    border-radius: 20px;
+.navbar2{
+    margin: 30px 35px;
+}
+
+.tombol1{
+    width: 100px;
+    height: 30px;
+    border-color: black;
+    border-radius: 7px;
     font-weight: bold;
+    background-color: aqua;
+    cursor: pointer;
 }
 
-.owner{
-    float: right;
-    justify-content: space-between;
+.gambar img{
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 20px;
 }
 
-.owner h3{
-    padding: 0 150px;
+.gambar{
+    display: flex;
+    justify-content: center;
 }
 
-.owner img{
-    height: 200px;
-    width: 200px;
-    padding: 30px 185px;
+.tombol2{
+    width: 150px;
+    height: 35px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: black;
+    border-top: none;
+    border-top-right-radius: 0 ;
+    border-top-left-radius: 0;
+    color: white;
+}
+
+.button{
+    text-align: center;
+
 }
